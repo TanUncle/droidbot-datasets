@@ -44,8 +44,9 @@
 2. 打开 DroidBot 之后，会自动跳转到设置中的无障碍功能界面，你需要找到 DroidBot，并为其打开无障碍功能。
 3. 在下拉框中选择标注的 APP，在 `请输入你的任务` 输入框中输入 `标注的 app 名字 explore`。（对同一个 APP 的多次标注，取不同的名称，如加上序号，否则只能记录最新的一个）
 4. 点击 `开始任务`，会有“是否允许录屏”的提示框，点击允许。（如果 `开始任务` 按钮为不可点击状态，请完全关闭该 APP，然后重新启动，并重新为 DroidBot 打开无障碍功能。如果系统显示已经打开无障碍功能，那就关闭并重新打开）
-5. 任务完成时，将通知栏滑下，会有 DroidBot 正在录制屏幕的通知，点击该通知，任务结束。
-6. 在你手机的文件管理 APP 的内部存储中，会出现一个名为 DroidBot 的文件夹，长按该文件夹，选择压缩，将压缩包发给我即可。
+5. **注意**：每次点击、输入之后，等待 1s~2s 的时间，每次滑动界面之后，等待 3s 左右的时间。输入的值如果能够直接在输入框中显示，输入得不要太快。
+6. 任务完成时，将通知栏滑下，会有 DroidBot 正在录制屏幕的通知，点击该通知，任务结束。
+7. 在你手机的文件管理 APP 的内部存储中，会出现一个名为 DroidBot 的文件夹，长按该文件夹，选择压缩，将压缩包发给我即可。
 
 ### English
 
@@ -53,5 +54,6 @@
 2. Open DroidBot. It will first automatically jump to the Accessibility screen in Settings, where you need to find DroidBot and turn on accessibility for it.
 3. Select the labeled APP in the drop-down box and enter `labeled app name + explore` in the  `请输入你的任务`  input box. (For multiple annotations of the same APP, take different names, e.g. add serial number, otherwise only the latest one will be recorded)
 4. Click `开始任务`, there will be a pop-up box "Allow screen recording", click allow. (If the `开始任务` button is not clickable, close the app completely, then restart it and turn on accessibility for DroidBot again. If the system shows that accessibility has been turned on, then close and turn it back on)
-5. When the task is finished, slide down the notification bar, there will be a notification that DroidBot is recording the screen, click on the notification, the task is finished.
-6. In the internal storage of your phone's file management app, a folder named DroidBot will appear, long press the folder, select Compress, and send the compressed package to me.
+5. **Note**: Wait for 1s~2s after each click and input, and wait for about 3s after each scroll. If the input value can be displayed directly in the input box, don't input it too fast.
+6. When the task is finished, slide down the notification bar, there will be a notification that DroidBot is recording the screen, click on the notification, the task is finished.
+7. In the internal storage of your phone's file management app, a folder named DroidBot will appear, long press the folder, select Compress, and send the compressed package to me.
