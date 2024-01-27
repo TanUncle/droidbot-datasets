@@ -2,7 +2,7 @@
 
 ## Folder Description
 
-- `data explore` 文件夹下存放各种 APP 的 explore results；其其文件夹，如 `voicerecorder explore` 存放对单个 APP 的explore result。
+- `data explore` 文件夹下存放各种 APP 的 explore results；其子文件夹，如 `voicerecorder explore` 存放对单个 APP 的explore result。
 - `data explore/voicerecorder explore` 文件夹包含如下内容：
   - `1706273204448.mp4` ：以开始时间戳命名的录屏。11分钟的录屏文件为370M，超出了git上传最大100M的限制，故没有上传。
   - `action_i.png` ：执行动作 *i* 之前，用户看到的界面。
@@ -10,10 +10,10 @@
     - `UI Task Raw.json` ：Android 端标注出的原始数据（trace log）。
     - `UI Task.json` ：使用 OCR 提取点击坐标，处理 windowStateChanged action 和 提取不到 click 的组件的情况。 
     - `UI Task Combined.json` ：对 input 动作和 scroll 动作进行合并。
-    - `UI Task Combined Plus.json`： merge 系统自动产生的多余动作
-    - `UI Task Combined Plus Check.json` ：**Final Result！** 剔除 pageInfo 为空的 action 。
-- `utg.js`：voicerecorder 的 utg。
-- `index.html` ：voicerecorder 的 utg 可视化。 
+    - `UI Task Combined Plus.json`： merge 系统自动产生的多余动作。
+    - `UI Task Combined Plus Check.json` ：**Final Result！** 剔除 pageInfo 为空的 action。
+- `utg.js`：Voice Recorder 的 utg。
+- `index.html` ：Voice Recorde 的 utg 可视化界面。 
 - `droidbot.apk` ：标注数据集的 Android APP 安装包。
 
 ## Included Actions
